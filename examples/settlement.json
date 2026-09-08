@@ -1,0 +1,44 @@
+{
+  "contributions": [
+    {
+      "id": "a",
+      "receipt_ref": "synthetic:need-discovery",
+      "roles": [
+        "D",
+        "I"
+      ],
+      "status": "ACCEPTED",
+      "units": 3
+    },
+    {
+      "id": "b",
+      "receipt_ref": "synthetic:delivery",
+      "roles": [
+        "K"
+      ],
+      "status": "ACCEPTED",
+      "units": 5
+    },
+    {
+      "id": "c",
+      "receipt_ref": "synthetic:disputed-review",
+      "roles": [
+        "W",
+        "P"
+      ],
+      "status": "DISPUTED",
+      "units": 2
+    }
+  ],
+  "currency": "USD",
+  "event_id": "contribution-demo",
+  "gross_cents": 100003,
+  "policy": {
+    "agreed": true,
+    "commons_bps": 1000,
+    "id": "negotiated-demo-not-universal",
+    "newcomer_bps": 1000,
+    "rights_clear": true
+  },
+  "repair_claim_cents": 10000
+}

@@ -1,0 +1,9 @@
+{
+  "conditional-pilot": "PILOT_CANDIDATE_PRESENT",
+  "consent-boundary": "NO_CURRENT_FEASIBLE_PATH_IN_SUBMITTED_SET",
+  "insufficient-evidence": "EVIDENCE_INCOMPLETE_NOT_A_NO_PATH_PROOF",
+  "late-entrant": "SCENARIO_ROBUST_CANDIDATE_PRESENT",
+  "limited-budget": "NO_CURRENT_FEASIBLE_PATH_IN_SUBMITTED_SET",
+  "no-current-path": "NO_CURRENT_FEASIBLE_PATH_IN_SUBMITTED_SET",
+  "ordinary-pilot": "SCENARIO_ROBUST_CANDIDATE_PRESENT"
+}

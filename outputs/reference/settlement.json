@@ -1,0 +1,48 @@
+{
+  "allocations": [
+    {
+      "amount_cents": 21601,
+      "id": "a",
+      "receipt_ref": "synthetic:need-discovery",
+      "roles": [
+        "D",
+        "I"
+      ],
+      "state": "PLANNED_PAYOUT"
+    },
+    {
+      "amount_cents": 36001,
+      "id": "b",
+      "receipt_ref": "synthetic:delivery",
+      "roles": [
+        "K"
+      ],
+      "state": "PLANNED_PAYOUT"
+    },
+    {
+      "amount_cents": 14401,
+      "id": "c",
+      "receipt_ref": "synthetic:disputed-review",
+      "roles": [
+        "W",
+        "P"
+      ],
+      "state": "HELD_PENDING_REVIEW"
+    }
+  ],
+  "boundary": "Weights and pool rules are agreed normative inputs, not objective causal value, tax or legal liability. Disputed shares are held, not redistributed to accepted claims.",
+  "commons_cents": 9000,
+  "conservation_ok": true,
+  "currency": "USD",
+  "event_id": "contribution-demo",
+  "gross_cents": 100003,
+  "held_cents": 14401,
+  "newcomer_cents": 9000,
+  "paid_cents": 57602,
+  "policy_id": "negotiated-demo-not-universal",
+  "real_funds_moved": false,
+  "repair_reserve_cents": 10000,
+  "repair_shortfall_cents": 0,
+  "settlement_hash": "7622f68a3ee017b17387acb15aea1eb7bb1910e0939de10471cba70399a8a7c6",
+  "status": "DRY_RUN_CONSERVED_ALLOCATION"
+}

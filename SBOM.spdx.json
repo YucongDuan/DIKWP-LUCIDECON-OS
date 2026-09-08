@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2026-09-07T00:00:00Z",
+    "creators": [
+      "Person: Yucong Duan",
+      "Tool: lucidecon-release-builder"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/lucidecon-2.0.0-98a1915cc497347863959331",
+  "name": "DIKWP-LUCIDECON-OS 2.0.0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package",
+      "comment": "Python standard-library runtime. Does not inventory the host OS or Python distribution. Documents/examples separately licensed CC BY 4.0; legacy source is retained for inspection.",
+      "copyrightText": "Copyright 2026 Yucong Duan",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "DIKWP-LUCIDECON-OS",
+      "versionInfo": "2.0.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Package",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.3"
+}

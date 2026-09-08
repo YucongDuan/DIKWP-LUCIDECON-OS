@@ -1,0 +1,181 @@
+{
+  "as_of": "2026-09-07",
+  "assessment_hash": "857a69ecc13644e0ef244f7f07d6567835fedc355fb8e64c7c5a484a31f76b3d",
+  "automated_external_action": false,
+  "case_id": "conditional-pilot",
+  "currency": "USD",
+  "data_origin": "SYNTHETIC",
+  "empirical_validation": false,
+  "global_person_score": null,
+  "horizon_days": 90,
+  "limits": [
+    "Inputs, reviews and permissions are declarations, not authenticated facts.",
+    "Each opportunity uses the full stated budget separately; results are not an executable combined portfolio.",
+    "Net cash excludes tax, debt service and personal living costs unless included explicitly; it is not net welfare.",
+    "All units are assumed pre-funded; receivable timing and credit facilities are not modeled.",
+    "Scenario intervals are bounded what-if assumptions, not confidence intervals or probabilities.",
+    "A no-path decision covers only this candidate set, horizon, target and input assumptions."
+  ],
+  "portfolio_status": "PILOT_CANDIDATE_PRESENT",
+  "privacy": "Local analysis contains potentially sensitive business inputs. Share only the minimized receipt deliberately.",
+  "purpose": "Test one bounded 90-day service path without risking protected living reserves.",
+  "results": [
+    {
+      "evidence": {
+        "boundary": "Reviews and source references are submitted declarations; files are not independently authenticated by this offline runtime.",
+        "eligible_ids": [
+          "ev-demand",
+          "ev-delivery",
+          "ev-access",
+          "ev-capability"
+        ],
+        "excluded": [],
+        "missing": [],
+        "passed": true,
+        "reviewer_identity_authenticated": false,
+        "role_evidence": {
+          "D": [
+            "ev-capability"
+          ],
+          "I": [
+            "ev-capability"
+          ],
+          "K": [
+            "ev-capability"
+          ],
+          "P": [
+            "ev-capability"
+          ],
+          "W": [
+            "ev-capability"
+          ]
+        }
+      },
+      "execution": {
+        "boundary": "Per delivered unit. Energy boundaries must match; unknown is never zero. No model, GUI, remote node or paid service was invoked.",
+        "economic_filter": "BOUNDED_PILOT_ECONOMIC_SUBSET",
+        "economic_route_checks": [
+          {
+            "affordable_within_loss_limit": true,
+            "best_net_cents": 246600,
+            "id": "local-reviewed-code",
+            "prefund_cents": 101400,
+            "worst_net_cents": 29400
+          }
+        ],
+        "energy_is_globally_minimal": false,
+        "metrics_independently_measured_by_runtime": false,
+        "pareto_ids": [
+          "local-reviewed-code"
+        ],
+        "rejected": [
+          {
+            "id": "remote-cheap",
+            "reasons": [
+              "EGRESS_BYTES_ABOVE_CEILING"
+            ]
+          }
+        ],
+        "selected": {
+          "authorized": true,
+          "cost_cents": 200,
+          "data_classes": [
+            "PUBLIC",
+            "INTERNAL"
+          ],
+          "egress_bytes": 0,
+          "energy": {
+            "basis": "ESTIMATED",
+            "boundary": "compute-and-network-per-delivered-unit",
+            "joules": [
+              60,
+              110
+            ]
+          },
+          "id": "local-reviewed-code",
+          "latency_ms": 60000,
+          "mode": "GENERATED_CODE",
+          "quality_bps": 9500,
+          "reliability_bps": 9500
+        },
+        "selection_rule": "MIN_UPPER_ESTIMATED_OR_MEASURED_JOULES_WITHIN_COMPARABLE_SUBSET",
+        "status": "ROUTE_PLANNED_NOT_EXECUTED",
+        "unknown_energy_ids": []
+      },
+      "opportunity_id": "local-maintenance",
+      "reopen_conditions": [],
+      "resource_blockers": [],
+      "rights_missing": [],
+      "scenarios": [
+        {
+          "capacity_units": 27,
+          "cash_goal_met_at_lower_bound": true,
+          "deliverable_units": [
+            8,
+            12
+          ],
+          "goal_units_at_lower_margin": 6,
+          "loss_ceiling_met": true,
+          "margin_cents": [
+            12800,
+            21800
+          ],
+          "minutes_at_upper_units": 3480,
+          "net_cash_cents": [
+            87400,
+            246600
+          ],
+          "prefund_cents": 101400,
+          "scenario_id": "baseline",
+          "unit_cash_cost_cents": [
+            4200,
+            7200
+          ],
+          "unit_price_cents": [
+            20000,
+            26000
+          ]
+        },
+        {
+          "capacity_units": 27,
+          "cash_goal_met_at_lower_bound": false,
+          "deliverable_units": [
+            6,
+            9
+          ],
+          "goal_units_at_lower_margin": 11,
+          "loss_ceiling_met": true,
+          "margin_cents": [
+            7400,
+            15800
+          ],
+          "minutes_at_upper_units": 2760,
+          "net_cash_cents": [
+            29400,
+            127200
+          ],
+          "prefund_cents": 92400,
+          "scenario_id": "price-and-demand-shock",
+          "unit_cash_cost_cents": [
+            5000,
+            8600
+          ],
+          "unit_price_cents": [
+            16000,
+            20800
+          ]
+        }
+      ],
+      "status": "BOUNDED_PILOT_ONLY",
+      "summary": {
+        "best_net_cents": 246600,
+        "prefund_cents": 101400,
+        "target_surplus_cents": 60000,
+        "worst_net_cents": 29400
+      },
+      "title": "Local small-business workflow maintenance / 本地小企业流程维护"
+    }
+  ],
+  "system": "DIKWP-LUCIDECON-OS",
+  "version": "2.0.0"
+}

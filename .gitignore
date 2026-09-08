@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.lock
+my_case.json
+outputs/demo*/
+outputs/personal*/
+*.egg-info/
+build/
+dist/

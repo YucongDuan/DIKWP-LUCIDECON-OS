@@ -1,0 +1,18 @@
+{
+  "commands_checked": [
+    "inspect",
+    "init",
+    "assess",
+    "replay",
+    "verify --expected-head",
+    "settle",
+    "simulate-market",
+    "audit-v1",
+    "record-outcome"
+  ],
+  "duplicate_outcome_refused": true,
+  "existing_output_refused": true,
+  "post_outcome_replay_equal": true,
+  "real_funds_moved": false,
+  "working_directory_independent": true
+}

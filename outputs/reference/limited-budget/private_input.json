@@ -1,0 +1,204 @@
+{
+  "as_of": "2026-09-07",
+  "case_id": "limited-budget",
+  "consent": {
+    "expires_on": "2026-12-01",
+    "granted": true,
+    "owner_alias": "participant-demo",
+    "purpose": "Test one bounded 90-day service path without risking protected living reserves.",
+    "revoked": false
+  },
+  "data_origin": "SYNTHETIC",
+  "evidence": [
+    {
+      "basis": "REVIEWED",
+      "id": "ev-demand",
+      "kind": "DEMAND",
+      "observed_on": "2026-09-01",
+      "operations": [
+        "local.workflow.maintenance"
+      ],
+      "outcome": "PASS",
+      "reviewer": "fictional-independent-reviewer",
+      "roles": [],
+      "sample_n": 4,
+      "source_ref": "synthetic-fixture:demand",
+      "valid_until": "2026-12-01"
+    },
+    {
+      "basis": "REVIEWED",
+      "id": "ev-delivery",
+      "kind": "DELIVERY",
+      "observed_on": "2026-09-01",
+      "operations": [
+        "local.workflow.maintenance"
+      ],
+      "outcome": "PASS",
+      "reviewer": "fictional-independent-reviewer",
+      "roles": [],
+      "sample_n": 4,
+      "source_ref": "synthetic-fixture:delivery",
+      "valid_until": "2026-12-01"
+    },
+    {
+      "basis": "REVIEWED",
+      "id": "ev-access",
+      "kind": "ACCESS",
+      "observed_on": "2026-09-01",
+      "operations": [
+        "local.workflow.maintenance"
+      ],
+      "outcome": "PASS",
+      "reviewer": "fictional-independent-reviewer",
+      "roles": [],
+      "sample_n": 4,
+      "source_ref": "synthetic-fixture:access",
+      "valid_until": "2026-12-01"
+    },
+    {
+      "basis": "REVIEWED",
+      "id": "ev-capability",
+      "kind": "CAPABILITY",
+      "observed_on": "2026-09-01",
+      "operations": [
+        "local.workflow.maintenance"
+      ],
+      "outcome": "PASS",
+      "reviewer": "fictional-independent-reviewer",
+      "roles": [
+        "D",
+        "I",
+        "K",
+        "W",
+        "P"
+      ],
+      "sample_n": 4,
+      "source_ref": "synthetic-fixture:capability",
+      "valid_until": "2026-12-01"
+    }
+  ],
+  "horizon_days": 90,
+  "opportunities": [
+    {
+      "economics": {
+        "acquisition_cents": [
+          1000,
+          2000
+        ],
+        "currency": "USD",
+        "delivery_minutes_per_unit": 240,
+        "demand_units": [
+          8,
+          12
+        ],
+        "fixed_period_cents": 5000,
+        "setup_minutes": 600,
+        "unit_cost_cents": [
+          3000,
+          5000
+        ],
+        "unit_price_cents": [
+          20000,
+          26000
+        ],
+        "upfront_cents": 10000
+      },
+      "id": "local-maintenance",
+      "operation": "local.workflow.maintenance",
+      "required_roles": [
+        "D",
+        "I",
+        "K",
+        "W",
+        "P"
+      ],
+      "rights": {
+        "data_consent": true,
+        "human_review": true,
+        "lawful": true,
+        "reversible": true
+      },
+      "route_gates": {
+        "data_class": "INTERNAL",
+        "energy_boundary": "compute-and-network-per-delivered-unit",
+        "max_cost_cents": 2000,
+        "max_egress_bytes": 0,
+        "max_energy_j": null,
+        "max_latency_ms": 600000,
+        "min_quality_bps": 9000,
+        "min_reliability_bps": 9000
+      },
+      "routes": [
+        {
+          "authorized": true,
+          "cost_cents": 200,
+          "data_classes": [
+            "PUBLIC",
+            "INTERNAL"
+          ],
+          "egress_bytes": 0,
+          "energy": {
+            "basis": "ESTIMATED",
+            "boundary": "compute-and-network-per-delivered-unit",
+            "joules": [
+              60,
+              110
+            ]
+          },
+          "id": "local-reviewed-code",
+          "latency_ms": 60000,
+          "mode": "GENERATED_CODE",
+          "quality_bps": 9500,
+          "reliability_bps": 9500
+        },
+        {
+          "authorized": true,
+          "cost_cents": 100,
+          "data_classes": [
+            "PUBLIC",
+            "INTERNAL"
+          ],
+          "egress_bytes": 500000,
+          "energy": {
+            "basis": "ESTIMATED",
+            "boundary": "compute-and-network-per-delivered-unit",
+            "joules": [
+              40,
+              80
+            ]
+          },
+          "id": "remote-cheap",
+          "latency_ms": 20000,
+          "mode": "REMOTE_API",
+          "quality_bps": 9800,
+          "reliability_bps": 9900
+        }
+      ],
+      "scenarios": [
+        {
+          "cost_bps": 10000,
+          "demand_bps": 10000,
+          "id": "baseline",
+          "price_bps": 10000
+        },
+        {
+          "cost_bps": 12000,
+          "demand_bps": 7500,
+          "id": "price-and-demand-shock",
+          "price_bps": 8000
+        }
+      ],
+      "title": "Local small-business workflow maintenance / 本地小企业流程维护"
+    }
+  ],
+  "owner_alias": "participant-demo",
+  "purpose": "Test one bounded 90-day service path without risking protected living reserves.",
+  "resources": {
+    "available_minutes": 7200,
+    "currency": "USD",
+    "max_loss_cents": 30000,
+    "spendable_cents": 10000,
+    "target_surplus_cents": 25000
+  },
+  "schema_version": "2.0"
+}

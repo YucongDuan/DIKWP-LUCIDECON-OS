@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-09-07",
+  "assessment_hash": "f66bfe4145adc7f02f2b9f65889ae98cbcd2e8eeeaff0def26c25c5b89f26e2d",
+  "case_id": "ordinary-pilot",
+  "data_origin": "SYNTHETIC",
+  "empirical_validation": false,
+  "personal_details_included": false,
+  "portfolio_status": "SCENARIO_ROBUST_CANDIDATE_PRESENT",
+  "system": "DIKWP-LUCIDECON-OS",
+  "version": "2.0.0",
+  "warning": "Case aliases and hashes may still be linkable. No automatic publication."
+}

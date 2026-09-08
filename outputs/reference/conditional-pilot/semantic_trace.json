@@ -1,0 +1,145 @@
+{
+  "all_25_pairs_executed": false,
+  "allowed_role_pairs": [
+    "D->D",
+    "D->I",
+    "D->K",
+    "D->W",
+    "D->P",
+    "I->D",
+    "I->I",
+    "I->K",
+    "I->W",
+    "I->P",
+    "K->D",
+    "K->I",
+    "K->K",
+    "K->W",
+    "K->P",
+    "W->D",
+    "W->I",
+    "W->K",
+    "W->W",
+    "W->P",
+    "P->D",
+    "P->I",
+    "P->K",
+    "P->W",
+    "P->P"
+  ],
+  "edges": [
+    {
+      "generated_content": "Normalized declared input",
+      "source": "D.input",
+      "target": "P.assess"
+    },
+    {
+      "generated_content": "Hard consent, rights, budget and loss gates",
+      "source": "W.policy",
+      "target": "P.assess"
+    },
+    {
+      "generated_content": "Calculated scoped outcome",
+      "source": "P.assess",
+      "target": "K.result"
+    },
+    {
+      "generated_content": "Preserve missing evidence and blockers",
+      "source": "K.result",
+      "target": "I.gaps"
+    },
+    {
+      "generated_content": "Request deterministic regeneration",
+      "source": "K.result",
+      "target": "P.replay"
+    },
+    {
+      "generated_content": "Target equality criterion, not a pre-executed proof",
+      "source": "P.replay",
+      "target": "D.replay"
+    }
+  ],
+  "records": [
+    {
+      "content": {
+        "input_hash": "43eb29eaa57300ef6f6f7507e4a2253d342eb847915467b309d24e7e4e639ea9",
+        "source": "private_input.json"
+      },
+      "id": "D.input",
+      "role": "D"
+    },
+    {
+      "content": [
+        {
+          "evidence_gaps": [],
+          "id": "local-maintenance",
+          "resource_blockers": []
+        }
+      ],
+      "id": "I.gaps",
+      "role": "I"
+    },
+    {
+      "content": {
+        "consent": {
+          "expires_on": "2026-12-01",
+          "granted": true,
+          "owner_alias": "participant-demo",
+          "purpose": "Test one bounded 90-day service path without risking protected living reserves.",
+          "revoked": false
+        },
+        "resources": {
+          "available_minutes": 7200,
+          "currency": "USD",
+          "max_loss_cents": 30000,
+          "spendable_cents": 150000,
+          "target_surplus_cents": 60000
+        },
+        "rights": {
+          "local-maintenance": {
+            "data_consent": true,
+            "human_review": true,
+            "lawful": true,
+            "reversible": true
+          }
+        }
+      },
+      "id": "W.policy",
+      "role": "W"
+    },
+    {
+      "content": {
+        "input": "D.input",
+        "operation": "lucidecon.engine.assess",
+        "output": "K.result"
+      },
+      "id": "P.assess",
+      "role": "P"
+    },
+    {
+      "content": {
+        "assessment_hash": "857a69ecc13644e0ef244f7f07d6567835fedc355fb8e64c7c5a484a31f76b3d",
+        "scope": "Test one bounded 90-day service path without risking protected living reserves."
+      },
+      "id": "K.result",
+      "role": "K"
+    },
+    {
+      "content": {
+        "operation": "recompute from private_input.json and compare assessment hash",
+        "source": "K.result"
+      },
+      "id": "P.replay",
+      "role": "P"
+    },
+    {
+      "content": {
+        "boundary": "Claimed only when the replay command returns equality; no external market verification."
+      },
+      "id": "D.replay",
+      "role": "D"
+    }
+  ],
+  "reverse_replay_performed": false,
+  "scope": "Engineering interpretation, not certification of an ontology."
+}

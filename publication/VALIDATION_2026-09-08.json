@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-08",
+  "python": "3.12.13",
+  "unit_tests_passed": 88,
+  "unit_tests_failed": 0,
+  "additional_checks": [
+    {
+      "command": [
+        "python",
+        "tools/verify_release.py"
+      ],
+      "returncode": 0,
+      "scope": "original delivered manifest; 136 files checked before publication edits"
+    }
+  ],
+  "remote_ci_status": "SEE_GITHUB_ACTIONS_FOR_COMMIT",
+  "scope": "Local synthetic software checks; not empirical economic validation or independent certification."
+}

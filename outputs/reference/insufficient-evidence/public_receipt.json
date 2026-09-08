@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-09-07",
+  "assessment_hash": "0f0a5d9e8540968a9560fcef69e0183ef318c3e03f9f33598cc4ac8680b9d7a7",
+  "case_id": "insufficient-evidence",
+  "data_origin": "SYNTHETIC",
+  "empirical_validation": false,
+  "personal_details_included": false,
+  "portfolio_status": "EVIDENCE_INCOMPLETE_NOT_A_NO_PATH_PROOF",
+  "system": "DIKWP-LUCIDECON-OS",
+  "version": "2.0.0",
+  "warning": "Case aliases and hashes may still be linkable. No automatic publication."
+}

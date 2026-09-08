@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-09-07",
+  "assessment_hash": "2a44806f77c0a291b45e90e095587e77ef8a2a1c8eb4ba6426ba6711938f30d0",
+  "case_id": "no-current-path",
+  "data_origin": "SYNTHETIC",
+  "empirical_validation": false,
+  "personal_details_included": false,
+  "portfolio_status": "NO_CURRENT_FEASIBLE_PATH_IN_SUBMITTED_SET",
+  "system": "DIKWP-LUCIDECON-OS",
+  "version": "2.0.0",
+  "warning": "Case aliases and hashes may still be linkable. No automatic publication."
+}

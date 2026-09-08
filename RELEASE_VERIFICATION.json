@@ -1,0 +1,151 @@
+{
+  "allocation_property_cases_within_one_test": 250,
+  "automatic_external_actions": false,
+  "browser": {
+    "console_errors": [],
+    "external_requests": [],
+    "parity_case_count": 7,
+    "reference_case_parity": [
+      "ordinary-pilot",
+      "late-entrant",
+      "conditional-pilot",
+      "no-current-path",
+      "insufficient-evidence",
+      "limited-budget",
+      "consent-boundary"
+    ],
+    "tested": "core statuses, cash bounds, pre-funding, quantity ranges",
+    "ui_checks": [
+      "language switch",
+      "sample change",
+      "budget change",
+      "reset",
+      "JSON export",
+      "duplicate key rejection",
+      "mobile width"
+    ]
+  },
+  "browser_test_method": "Loaded delivered HTML into Chromium with set_content; direct file navigation was restricted by this environment.",
+  "cli_smoke": {
+    "commands_checked": [
+      "inspect",
+      "init",
+      "assess",
+      "replay",
+      "verify --expected-head",
+      "settle",
+      "simulate-market",
+      "audit-v1",
+      "record-outcome"
+    ],
+    "duplicate_outcome_refused": true,
+    "existing_output_refused": true,
+    "post_outcome_replay_equal": true,
+    "real_funds_moved": false,
+    "working_directory_independent": true
+  },
+  "core_python_source_files": 15,
+  "deterministic_zipapp_build": true,
+  "external_field_validation": false,
+  "json_files_parsed_before_release_metadata": 62,
+  "ledger_events": 25,
+  "limitations": [
+    "Local consistency checks do not validate demand, identity, source evidence, energy metering or market outcomes.",
+    "Cannot test the recipient chat-client download path or guarantee permanent attachment availability.",
+    "No public-server security certification. Browser parity covers tested core outputs, not every possible input.",
+    "CI configuration is supplied but was not executed on GitHub."
+  ],
+  "python_version_executed": "3.13.5",
+  "real_funds_moved": false,
+  "reference_cases": 7,
+  "reference_replay_checks": 8,
+  "remote_github_release": false,
+  "reports": [
+    {
+      "docx_archive_crc": "PASS",
+      "pages_rendered": 14,
+      "pages_visually_inspected": 14,
+      "path": "reports/report_cn.docx",
+      "sha256": "2e5a96a9da2cab22fee58e435397e6add2cd7339e2c21c5f8fd82c469030ce81",
+      "xml_parse": "PASS"
+    },
+    {
+      "docx_archive_crc": "PASS",
+      "pages_rendered": 14,
+      "pages_visually_inspected": 14,
+      "path": "reports/report_en.docx",
+      "sha256": "613aeb48be4ed1c49d1bcd11075b8a5fb21b55194a735267c39b1c899c2cd106",
+      "xml_parse": "PASS"
+    }
+  ],
+  "runtime_external_dependencies": [],
+  "source_files": [
+    {
+      "path": "src/lucidecon/__init__.py",
+      "sha256": "8df59d662e6279551fe9f51e86104b814531c4349333fbb18e7624ee3393ca68"
+    },
+    {
+      "path": "src/lucidecon/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+    },
+    {
+      "path": "src/lucidecon/cli.py",
+      "sha256": "25b65fa1b134bbe1e45ec20f87a3ad884c8a43cc2ac8f0e169b54e35213b9023"
+    },
+    {
+      "path": "src/lucidecon/common.py",
+      "sha256": "b2da824f5e08a606ff2eb887484ad4a8ecba5f0ba5e1953550dbe28bee8863df"
+    },
+    {
+      "path": "src/lucidecon/economics.py",
+      "sha256": "4241b96048d1c1f2d6269a3a3142b265b01020d7b814d2b7e149953113568ca1"
+    },
+    {
+      "path": "src/lucidecon/engine.py",
+      "sha256": "e6d7a31290446711e67043a1592b0d2a71798d1da3feef422024de555e8889ea"
+    },
+    {
+      "path": "src/lucidecon/evidence.py",
+      "sha256": "cf98fc7eb30a9d8626751aa03c623156c1ed624afaa90ffc6ab7fa62460e6f0c"
+    },
+    {
+      "path": "src/lucidecon/journal.py",
+      "sha256": "51f990b1974610f507d2828f7d91886c97c1fe6e12f3dd63c661c076da0c086e"
+    },
+    {
+      "path": "src/lucidecon/reporting.py",
+      "sha256": "cacf9d337860bfec2fc79a13e3bbd1455fa3e8efe52f6918042da688bdb37501"
+    },
+    {
+      "path": "src/lucidecon/routing.py",
+      "sha256": "5363b4ae93a89f89a53e1c6878ce50d87a4bf25911e90d85396ea2040b0c1650"
+    },
+    {
+      "path": "src/lucidecon/samples.py",
+      "sha256": "cdb2387ec5676bebd4076b9cf9bf413af343c037d7ce098b58314269b072eae9"
+    },
+    {
+      "path": "src/lucidecon/settlement.py",
+      "sha256": "818e976fcecbad56a9d0a177a4b50741ef49d1999a512418f53bcb8a1b11b422"
+    },
+    {
+      "path": "src/lucidecon/simulation.py",
+      "sha256": "2c535b7360a5c87eba10bd7135e2c97156e97643087a264f6d96e0a9742467a4"
+    },
+    {
+      "path": "src/lucidecon/trace.py",
+      "sha256": "747f620ba2ce3b6c606e29e0f8f35770d1cdc5255742ebd8289baf30bda9bc77"
+    },
+    {
+      "path": "src/lucidecon/validation.py",
+      "sha256": "663c7a1ba13d0465779b7a097da8425ef7d2c050f58b1dbcf737ad2fe9ccc7e8"
+    }
+  ],
+  "system": "DIKWP-LUCIDECON-OS",
+  "unit_test_methods": 88,
+  "unit_tests_passed": 88,
+  "valid_ledgers": 8,
+  "verification_date": "2026-09-07",
+  "version": "2.0.0",
+  "zipapp_sha256": "7269d0a46cbc4891850d908930f936b45acab8215194b35eeaeae05bce5de391"
+}

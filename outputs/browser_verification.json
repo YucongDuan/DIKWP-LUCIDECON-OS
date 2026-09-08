@@ -1,0 +1,24 @@
+{
+  "reference_case_parity": [
+    "ordinary-pilot",
+    "late-entrant",
+    "conditional-pilot",
+    "no-current-path",
+    "insufficient-evidence",
+    "limited-budget",
+    "consent-boundary"
+  ],
+  "parity_case_count": 7,
+  "tested": "core statuses, cash bounds, pre-funding, quantity ranges",
+  "ui_checks": [
+    "language switch",
+    "sample change",
+    "budget change",
+    "reset",
+    "JSON export",
+    "duplicate key rejection",
+    "mobile width"
+  ],
+  "console_errors": [],
+  "external_requests": []
+}

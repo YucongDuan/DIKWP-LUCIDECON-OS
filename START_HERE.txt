@@ -1,0 +1,9 @@
+LUCIDECON 2.0 / 明值经济
+
+1. Open lucidecon.html / 双击离线页面。
+2. Read reports/report_cn.docx or reports/report_en.docx.
+3. With Python 3.10+: python lucidecon.pyz demo --output outputs/my_demo
+
+All examples are synthetic. Do not enter passwords or identity documents.
+全部示例均为合成数据；不要输入账户密码或证件资料。
+See README_CN.md / README.md for full instructions.

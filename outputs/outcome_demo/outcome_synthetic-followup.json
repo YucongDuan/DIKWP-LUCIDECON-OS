@@ -1,0 +1,15 @@
+{
+  "causal_proof": false,
+  "decision": "REVISE_BEFORE_SCALING",
+  "original_assessment_overwritten": false,
+  "outcome": {
+    "actor": "fictional-reviewer",
+    "assessment_hash": "f66bfe4145adc7f02f2b9f65889ae98cbcd2e8eeeaff0def26c25c5b89f26e2d",
+    "evidence_ref": "synthetic:followup-no-field-evidence",
+    "id": "synthetic-followup",
+    "opportunity_id": "local-maintenance",
+    "result": "NO_CHANGE"
+  },
+  "parent_assessment_hash": "f66bfe4145adc7f02f2b9f65889ae98cbcd2e8eeeaff0def26c25c5b89f26e2d",
+  "successor_hash": "a774753540841d42e4fc622bd59707220e5f8348861c4958a99e75590a816d7f"
+}

@@ -1,0 +1,23 @@
+{
+  "action": "Recovered source from executable; rebuilt reports and a redesigned v2 runtime. No claim of byte-for-byte report restoration.",
+  "old_zipapp": "DIKWP_LUCIDECON_OS.pyz",
+  "old_zipapp_sha256": "cfbb6808cc1a744ab1e679afea2aa0de5caa7d9919a6336a2d740073696f7a72",
+  "original_v1_reports_found_in_runtime": false,
+  "original_v1_zip_found_in_runtime": false,
+  "prior_license_basis": "v1 SPDX artifact declares Apache-2.0. Original source preserved under legacy/v1_source; not imported by v2.",
+  "recovered_python_files": [
+    "v1_source/pathfinder.py",
+    "v1_source/valueflow.py",
+    "v1_source/ledger.py",
+    "v1_source/capability.py",
+    "v1_source/__main__.py",
+    "v1_source/market.py",
+    "v1_source/reporting.py",
+    "v1_source/cli.py",
+    "v1_source/routing.py",
+    "v1_source/models.py",
+    "v1_source/common.py",
+    "v1_source/embedded.py",
+    "v1_source/__init__.py"
+  ]
+}

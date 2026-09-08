@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-09-07",
+  "assessment_hash": "857a69ecc13644e0ef244f7f07d6567835fedc355fb8e64c7c5a484a31f76b3d",
+  "case_id": "conditional-pilot",
+  "data_origin": "SYNTHETIC",
+  "empirical_validation": false,
+  "personal_details_included": false,
+  "portfolio_status": "PILOT_CANDIDATE_PRESENT",
+  "system": "DIKWP-LUCIDECON-OS",
+  "version": "2.0.0",
+  "warning": "Case aliases and hashes may still be linkable. No automatic publication."
+}

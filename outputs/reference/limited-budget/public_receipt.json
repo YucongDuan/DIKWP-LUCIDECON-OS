@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-09-07",
+  "assessment_hash": "07d18e8d7fffd32ef181b0ebbb1639a608925b8925eb22e9e6e80af902f42f24",
+  "case_id": "limited-budget",
+  "data_origin": "SYNTHETIC",
+  "empirical_validation": false,
+  "personal_details_included": false,
+  "portfolio_status": "NO_CURRENT_FEASIBLE_PATH_IN_SUBMITTED_SET",
+  "system": "DIKWP-LUCIDECON-OS",
+  "version": "2.0.0",
+  "warning": "Case aliases and hashes may still be linkable. No automatic publication."
+}

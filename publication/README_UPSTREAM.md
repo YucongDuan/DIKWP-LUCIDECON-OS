@@ -1,7 +1,3 @@
-[English](README.md) · [中文](README_CN.md) · [Choose a tool](ECOSYSTEM.md) · [Research directory](https://github.com/YucongDuan/YucongDuan/blob/main/REPOSITORY_DIRECTORY.md)
-
-[![Tests](https://github.com/YucongDuan/DIKWP-LUCIDECON-OS/actions/workflows/tests.yml/badge.svg)](https://github.com/YucongDuan/DIKWP-LUCIDECON-OS/actions/workflows/tests.yml) · Python 3.10+ · Apache-2.0
-
 # DIKWP-LUCIDECON-OS 2.0
 ## Evidence-scoped transparent economy lab
 
@@ -58,14 +54,3 @@ Windows PowerShell: `$env:PYTHONPATH='src'` before running the tests. CI configu
 All sample markets, counterparties, reviews, prices, energy and demand are synthetic declarations. Quality, reviewer identity and permission declarations are not authenticated. Energy is estimated unless a declared measurement reference is present; the tool itself reads no power sensor. No real payments, model/API/GUI calls, automatic employment decisions or external actions occur. Local files are not encrypted. A hash chain establishes internal consistency, not truth or resistance to a malicious file administrator; retain an independent head checkpoint for truncation/rewrite detection.
 
 Code: Apache-2.0. Documentation and original examples: CC BY 4.0. Prepared for the Yucong Duan DIKWP programme; no external institutional endorsement or economic-effectiveness certification is claimed. See reports and SOURCES.json.
-
-## Download, run and verify
-
-- [Versioned release and original full delivery](https://github.com/YucongDuan/DIKWP-LUCIDECON-OS/releases/tag/v2.0.0)
-- [Offline browser app](lucidecon.html) — download the source archive, extract it, then open this HTML file locally. GitHub's file viewer displays source.
-- [Publication verification](publication/VALIDATION_2026-09-08.md): **88 local tests passed** on 8 September 2026.
-- [Source](src/) · [Tests](tests/) · [Archive provenance](publication/PROVENANCE.json)
-
-## Contribute a reproducible result
-
-Run an example, report a failing case with its expected result, or add a documented extension. Use synthetic or anonymized inputs. If useful, star the repository, cite its version and share its canonical link. See [CONTRIBUTING.md](CONTRIBUTING.md).

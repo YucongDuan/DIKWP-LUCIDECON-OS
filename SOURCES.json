@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S01",
+    "location": "粘贴的 markdown (1)。md(4), source paragraphs on interface/permission separation and final untested-effect disclaimer",
+    "title": "GPT-6，“强拆”App的墙",
+    "type": "USER_SUPPLIED_COMMENTARY",
+    "use": "Trend hypothesis only. Named model dates and performance numbers were not independently established and are not runtime defaults."
+  },
+  {
+    "accessed": "2026-09-07",
+    "id": "S02",
+    "title": "别学 AI 编程了，AI 编程是一条死路 #AI#",
+    "type": "TITLE_ONLY_VIDEO",
+    "url": "https://mbd.baidu.com/newspage/data/videolanding?nid=sv_10268259270444150443&sourceFrom=share",
+    "use": "Page title accessible; zero parsed body lines. No transcript obtained, no claim of full video review."
+  },
+  {
+    "date": "2025-05-20",
+    "id": "S03",
+    "organization": "ILO / NASK",
+    "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure",
+    "type": "PRIMARY_RESEARCH",
+    "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+    "use": "Task-level exposure is not a personal dismissal probability; summary/abstract retrieved, direct main page blocked during this run."
+  },
+  {
+    "authors": "Erik Brynjolfsson, Danielle Li, Lindsey R. Raymond",
+    "id": "S04",
+    "title": "Generative AI at Work",
+    "type": "PRIMARY_WORKING_PAPER",
+    "url": "https://www.nber.org/papers/w31161",
+    "use": "Working-paper abstract reports customer-support productivity improvement; not universal developer productivity. Search-index abstract retrieved, direct page blocked."
+  },
+  {
+    "date": "2025-07-10",
+    "id": "S05",
+    "organization": "METR",
+    "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+    "type": "PRIMARY_RESEARCH",
+    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+    "use": "Historical context-specific randomized study, not a current universal estimate."
+  },
+  {
+    "date": "2026-02-24",
+    "id": "S06",
+    "organization": "METR",
+    "title": "We are Changing our Developer Productivity Experiment Design",
+    "type": "PRIMARY_RESEARCH_UPDATE",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+    "use": "Selection and measurement biases undermine extrapolation of the later estimate; no precise current acceleration claim is used."
+  },
+  {
+    "date": "2026-05-28",
+    "doi": "10.1787/042c0c49-en",
+    "id": "S07",
+    "organization": "OECD",
+    "title": "Competition and consumer policy in digital markets",
+    "type": "PRIMARY_POLICY_RESEARCH",
+    "url": "https://www.oecd.org/en/publications/competition-and-consumer-policy-in-digital-markets_042c0c49-en/full-report/component-4.html",
+    "use": "Agency, information asymmetry, switching barriers and intervention trade-offs; not endorsement of this policy simulator."
+  },
+  {
+    "authors": "Yucong Duan and Feng Wang",
+    "id": "S08",
+    "location": "Chinese native-semantic reconstruction note; English pp. 2, 8–10",
+    "title": "宇宙的数学新史 / A New Mathematical History of the Universe",
+    "type": "USER_SUPPLIED_THEORETICAL_SOURCE",
+    "use": "D/I/K/W/P roles, explicit record paths, operational W/P, regeneration and external-domain boundaries; not an independently validated economic theory."
+  }
+]

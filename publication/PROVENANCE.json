@@ -1,0 +1,11 @@
+{
+  "uploaded_container": "Desktop(8).zip",
+  "upstream_archive": "lucidecon_v2.zip",
+  "archive_sha256": "8e46bc160088238751240e2938113d419d6e89f40d99965fc0003171562d62d2",
+  "archive_size_bytes": 308887,
+  "release_tag": "v2.0.0",
+  "repository": "https://github.com/YucongDuan/DIKWP-LUCIDECON-OS",
+  "publication_date": "2026-09-08",
+  "upstream_runtime_version_preserved": true,
+  "runtime_code_changes": false
+}

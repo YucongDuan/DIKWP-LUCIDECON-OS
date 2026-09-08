@@ -1,0 +1,73 @@
+{
+  "entrants": [
+    {
+      "id": "e00",
+      "initial_exposure_units": 1000,
+      "newcomer": false,
+      "quality_units": 100
+    },
+    {
+      "id": "e01",
+      "initial_exposure_units": 10,
+      "newcomer": false,
+      "quality_units": 100
+    },
+    {
+      "id": "e02",
+      "initial_exposure_units": 10,
+      "newcomer": false,
+      "quality_units": 100
+    },
+    {
+      "id": "e03",
+      "initial_exposure_units": 10,
+      "newcomer": false,
+      "quality_units": 100
+    },
+    {
+      "id": "e04",
+      "initial_exposure_units": 10,
+      "newcomer": false,
+      "quality_units": 100
+    },
+    {
+      "id": "e05",
+      "initial_exposure_units": 10,
+      "newcomer": false,
+      "quality_units": 100
+    },
+    {
+      "id": "e06",
+      "initial_exposure_units": 10,
+      "newcomer": true,
+      "quality_units": 100
+    },
+    {
+      "id": "e07",
+      "initial_exposure_units": 10,
+      "newcomer": true,
+      "quality_units": 100
+    },
+    {
+      "id": "e08",
+      "initial_exposure_units": 10,
+      "newcomer": true,
+      "quality_units": 100
+    },
+    {
+      "id": "e09",
+      "initial_exposure_units": 10,
+      "newcomer": true,
+      "quality_units": 100
+    }
+  ],
+  "market_id": "fixed-pool-first-mover",
+  "network_bps": 16000,
+  "policy": {
+    "max_share_bps": 2000,
+    "newcomer_reserve_bps": 2000
+  },
+  "pool_cents": 100000,
+  "reinforcement_power": 2,
+  "rounds": 12
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "count": 4,
+    "errors": [],
+    "externally_anchored": false,
+    "head": "70eae0d1842ec518cfd5789a85b70fe8c271068f28391565917fdb5c6f7bef78",
+    "path": "outputs/outcome_demo/ledger.jsonl",
+    "valid": true
+  },
+  {
+    "count": 3,
+    "errors": [],
+    "externally_anchored": false,
+    "head": "48157235dd585ed9a46524356851ec32e65a7fca1feb91b123709df4db22a160",
+    "path": "outputs/reference/conditional-pilot/ledger.jsonl",
+    "valid": true
+  },
+  {
+    "count": 3,
+    "errors": [],
+    "externally_anchored": false,
+    "head": "60a90262affe18cce115d6119fd593d4b3644119460f503e3a1c7c44925f2ed2",
+    "path": "outputs/reference/consent-boundary/ledger.jsonl",
+    "valid": true
+  },
+  {
+    "count": 3,
+    "errors": [],
+    "externally_anchored": false,
+    "head": "cd775a2bcc05882e100e0a1eba80449f82688afa477c1cd56f3de6e0346405b6",
+    "path": "outputs/reference/insufficient-evidence/ledger.jsonl",
+    "valid": true
+  },
+  {
+    "count": 3,
+    "errors": [],
+    "externally_anchored": false,
+    "head": "ec71c493e5f9dfc25bc691e2d0e496b3e1d0e4a88bec8fa7cf5b3e9ca10ccb23",
+    "path": "outputs/reference/late-entrant/ledger.jsonl",
+    "valid": true
+  },
+  {
+    "count": 3,
+    "errors": [],
+    "externally_anchored": false,
+    "head": "4b28334bb9ff0c63da399a294dbdf0f3bdac8edd4f367505947402babe633b47",
+    "path": "outputs/reference/limited-budget/ledger.jsonl",
+    "valid": true
+  },
+  {
+    "count": 3,
+    "errors": [],
+    "externally_anchored": false,
+    "head": "02fa95b54177b585237a2a389a1aebc89a0438f6d6f9ab6c80636193c6a7e2b6",
+    "path": "outputs/reference/no-current-path/ledger.jsonl",
+    "valid": true
+  },
+  {
+    "count": 3,
+    "errors": [],
+    "externally_anchored": false,
+    "head": "04c7feabae05853615c8b5eed008e9856b3a8191fc87876e6dfa78e41f0a20b6",
+    "path": "outputs/reference/ordinary-pilot/ledger.jsonl",
+    "valid": true
+  }
+]

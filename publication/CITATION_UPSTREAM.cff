@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite the exact release and clearly label synthetic results."
+title: "DIKWP-LUCIDECON-OS: Evidence-Scoped Transparent Economy Lab"
+version: 2.0.0
+date-released: 2026-09-07
+authors:
+  - family-names: Duan
+    given-names: Yucong
+license: Apache-2.0
+type: software

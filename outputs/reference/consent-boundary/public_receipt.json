@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-09-07",
+  "assessment_hash": "463e416dc1d0540b9a55528ecfbf0da6c8d17a0d71ea83a88b1848c8e37f3545",
+  "case_id": "consent-boundary",
+  "data_origin": "SYNTHETIC",
+  "empirical_validation": false,
+  "personal_details_included": false,
+  "portfolio_status": "NO_CURRENT_FEASIBLE_PATH_IN_SUBMITTED_SET",
+  "system": "DIKWP-LUCIDECON-OS",
+  "version": "2.0.0",
+  "warning": "Case aliases and hashes may still be linkable. No automatic publication."
+}

@@ -1,0 +1,8 @@
+{
+  "actor": "fictional-reviewer",
+  "assessment_hash": "f66bfe4145adc7f02f2b9f65889ae98cbcd2e8eeeaff0def26c25c5b89f26e2d",
+  "evidence_ref": "synthetic:followup-no-field-evidence",
+  "id": "synthetic-followup",
+  "opportunity_id": "local-maintenance",
+  "result": "NO_CHANGE"
+}
