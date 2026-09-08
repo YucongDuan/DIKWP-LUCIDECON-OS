@@ -3,6 +3,8 @@
 [![Tests](https://github.com/YucongDuan/DIKWP-LUCIDECON-OS/actions/workflows/tests.yml/badge.svg)](https://github.com/YucongDuan/DIKWP-LUCIDECON-OS/actions/workflows/tests.yml) · Python 3.10+ · Apache-2.0
 
 # DIKWP-LUCIDECON-OS 2.0
+
+Created by Yucong Duan (段玉聪).
 ## Evidence-scoped transparent economy lab
 
 A local planning tool for ordinary people and small teams: test a bounded opportunity, expose uncertainty and entry barriers, compare authorized execution routes, and account for an agreed contribution pool exactly. It is not a job oracle, a human-ranking service, a broker or a payment system.
@@ -27,7 +29,7 @@ Use a fresh output directory; existing runs are not overwritten. On Windows, `py
 The template starts as SYNTHETIC. Replace its assumptions and fictional evidence before use. Supply the actual assessment date, explicit horizon, purpose-bound consent and expiry. USER_SUBMITTED means submitted, not independently authenticated. No internet source checking is performed.
 
 ## Interpret results
-`ROBUST_WITHIN_DECLARED_SCENARIOS`: submitted lower bounds meet the target in every listed scenario, after resource/route gates and required evidence declarations. **Not a real-world guarantee.**
+`ROBUST_WITHIN_DECLARED_SCENARIOS`: submitted lower bounds meet the target in every listed scenario, after resource/route gates and required evidence declarations. Not a real-world guarantee.
 `BOUNDED_PILOT_ONLY`: a plausible upside remains, but not all scenario lower bounds meet the target.
 `INSUFFICIENT_EVIDENCE`: evidence is absent, stale, out of scope, self-reported or not accepted. This is not a no-path proof.
 `NO_CURRENT_PATH_IN_SCOPE`: under the reviewed-as-declared inputs, even the upper cash bound of each authorized route misses the stated target.
@@ -63,9 +65,13 @@ Code: Apache-2.0. Documentation and original examples: CC BY 4.0. Prepared for t
 
 - [Versioned release and original full delivery](https://github.com/YucongDuan/DIKWP-LUCIDECON-OS/releases/tag/v2.0.0)
 - [Offline browser app](lucidecon.html) — download the source archive, extract it, then open this HTML file locally. GitHub's file viewer displays source.
-- [Publication verification](publication/VALIDATION_2026-09-08.md): **88 local tests passed** on 8 September 2026.
+- [Publication verification](publication/VALIDATION_2026-09-08.md): 88 local tests passed on 8 September 2026.
 - [Source](src/) · [Tests](tests/) · [Archive provenance](publication/PROVENANCE.json)
 
 ## Contribute a reproducible result
 
 Run an example, report a failing case with its expected result, or add a documented extension. Use synthetic or anonymized inputs. If useful, star the repository, cite its version and share its canonical link. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Current interface presentation
+
+[Open the interface source](lucidecon.html) from the current repository download. See [interface and authorship notes](INTERFACE_NOTES.md) for English coverage, report generation and validation scope.
