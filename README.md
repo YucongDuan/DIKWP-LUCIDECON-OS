@@ -4,6 +4,14 @@
 
 # DIKWP-LUCIDECON-OS 2.0
 
+
+[**Start here · 使用导读**](GETTING_STARTED.md) · [Project details · 项目详情](https://github.com/YucongDuan/YucongDuan/blob/main/projects/1360834556.md)
+
+Assess bounded opportunities, replay evidence receipts and allocate agreed contribution pools with exact accounting.
+
+评估有界机会，重放证据记录，并精确核算约定的贡献池。
+
+
 Created by Yucong Duan (段玉聪).
 ## Evidence-scoped transparent economy lab
 
@@ -52,7 +60,7 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 python tools/build_zipapp.py
 python tools/verify_release.py
 ```
-Windows PowerShell: `$env:PYTHONPATH='src'` before running the tests. CI configuration targets Python 3.10–3.13 but no remote CI result is claimed in this delivery. Build/install dependencies are not runtime dependencies; using the .pyz requires no package installation.
+Windows PowerShell: `$env:PYTHONPATH='src'` before running the tests. CI configuration targets Python 3.10–3.13; inspect the GitHub Actions run for the tested revision. Build/install dependencies are not runtime dependencies; using the .pyz requires no package installation.
 
 `legacy/v1_source` contains recovered, unpatched historical v1 source for inspection, not the default runtime. Migration requires new inputs; old subjective capability scores are not silently promoted to reviewed evidence. See MIGRATION.md.
 
